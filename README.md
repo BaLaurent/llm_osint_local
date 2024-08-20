@@ -1,5 +1,7 @@
 # llm_osint
 
+# THIS IS A FORK, I JUST CHANGED SOME CONFIG ALL THE CREDITS GOES TO [Shrivu Shankar](https://github.com/sshh12)
+
 > LLM OSINT is a proof-of-concept method of using LLMs to gather information from the internet and then perform a task with this information.
 
 _As seen on [The Wall Street Journal](https://archive.ph/p8XyR) "Generative AI Could Revolutionize Email—for Hackers"_.
@@ -307,11 +309,11 @@ In experimation using GPT-4 as the primary driver of the knowledge and web agent
 
 ## Install
 
-1. pip install `git+https://github.com/sshh12/llm_osint`
+1. pip install `git+https://github.com/BaLaurent/llm_osint_local`
 2. Environment Setup
+3. Prepare the models to be used you need to do an `ollama create` to have one named 'llm_osint_fast' and another named 'llm_osint'
 
 ```
-OPENAI_API_KEY=
 SERPER_API_KEY=
 SCRAPINGBEE_API_KEY=
 ```
