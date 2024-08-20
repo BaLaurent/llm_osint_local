@@ -314,7 +314,6 @@ In experimation using GPT-4 as the primary driver of the knowledge and web agent
 3. Prepare the models to be used you need to do an `ollama create` to have one named 'llm_osint_fast' and another named 'llm_osint'
 
 ```
-SERPER_API_KEY=
 SCRAPINGBEE_API_KEY=
 ```
 
