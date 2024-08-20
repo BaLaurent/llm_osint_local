@@ -25,6 +25,7 @@ def build_web_agent(tools: List[Tool], memory: Optional[BaseChatMemory] = None, 
         agent=AgentType.CHAT_ZERO_SHOT_REACT_DESCRIPTION,
         verbose=True,
         memory=memory,
+        handle_parsing_errors=True,
         agent_kwargs=agent_kwargs,
     )
     return agent_chain
